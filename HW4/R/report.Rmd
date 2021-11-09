@@ -1,0 +1,22 @@
+---
+title: "HW 4"
+author: "Haoran Cheng"
+date: "10/8/2021"
+output: "html_document"
+---
+
+### Loading packages
+```{r}
+library(here)
+here::i_am("R/report.rmd")
+```
+
+#### Here's the predicted vs observed PM2.5 associated health burden per city
+```{r}
+knitr::include_graphics(here::here("figs","city.png"))
+```
+
+#### Here's the predicted vs observed PM2.5 associated health burden per regiom
+```{r}
+knitr::include_graphics(here::here("figs","region.png"))
+```
