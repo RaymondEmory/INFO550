@@ -38,5 +38,5 @@ make data/region.csv
 To keep track of the version of package used in the analysis, run the following code
 
 ```
-renv::retore()
+renv::restore()
 ```
