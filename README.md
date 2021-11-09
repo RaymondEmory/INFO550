@@ -35,3 +35,8 @@ make data/city.csv
 make data/region.csv
 ```
 ## Restore package environment
+To keep track of the version of package used in the analysis, run the following code
+
+```
+renv::retore()
+```
