@@ -22,7 +22,7 @@ To execute the analysis, from the project folder you can run
 
 `Rscript -e "rmarkdown::render('HW2_HC.Rmd')"`
 
-This will create a file called report.html output in your directory that contains the results.
+The output html file can be found in the directory R/report.html
 
 ## Makefile
 The makefile contains 5 output. To view them separately, type
